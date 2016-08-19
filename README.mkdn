@@ -10,9 +10,11 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 
 repo init -u https://github.com/juniortada/android.git -b cm-13.0
+
 repo sync
 
 source build/envsetup.sh
 
 breakfast fortunave3g
+
 brunch fortunave3g
