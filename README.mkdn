@@ -5,6 +5,7 @@ Getting Started
 
 ---------------
 
+```
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
 chmod a+x ~/bin/repo
@@ -18,3 +19,4 @@ source build/envsetup.sh
 breakfast fortunave3g
 
 brunch fortunave3g
+```
