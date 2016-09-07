@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r61" />
+           revision="refs/tags/android-7.0.0_r1" />
 
   <remote  name="github"
            fetch=".."
@@ -13,7 +13,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/cm-13.0"
+  <default revision="refs/heads/staging/cm-14.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -23,18 +23,25 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.0" />
   <project path="prebuilts/gcc/linux-x86/arm" name="ZIM555/android_prebuilts_gcc" remote="github" revision="master" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0"/>
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.0"/>
 
+<!-- Samsung Grand Prime SM-G530H 
   <project path="device/samsung/fortunave3g" name="juniortada/android_device_samsung_fortunave3g" remote="github" revision="cm-13.0" />
   <project path="vendor/samsung/fortunave3g" name="ZIM555/android_vendor_samsung_fortunave3g" remote="github" revision="cm-13.0" />
   <project path="device/samsung/fortuna3g" name="ZIM555/android_device_samsung_fortuna3g" remote="github" revision="cm-13.0" />
   <project path="vendor/samsung/fortuna3g" name="ZIM555/android_vendor_samsung_fortuna3g" remote="github" revision="cm-13.0" />
   <project path="kernel/samsung/fortunaxx3g" name="ZIM555/android_kernel_samsung_fortunaxx3g" remote="github" revision="cm-13.0" />
+  -->
   
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
+  <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-14.0" />
+  <project path="device/samsung/jfltexx" name="CyanogenMod/android_device_samsung_jfltexx" remote="github" revision="cm-14.0" />
+  <project path="kernel/samsung/jfltexx" name="zwliew/android_kernel_samsung_jf" remote="github" revision="cm-14.0-new" />
+  <project path="vendor/samsung/jfltexx" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-14.0" />
+  
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-14.0" />
   
   <project path="android" name="CyanogenMod/android" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
