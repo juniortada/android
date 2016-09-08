@@ -12,6 +12,7 @@
   </project>
   
   <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-14.0" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-14.0" />
   <project path="device/samsung/jfltexx" name="CyanogenMod/android_device_samsung_jfltexx" remote="github" revision="cm-14.0" />
   <project path="kernel/samsung/jfltexx" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-14.0" />
   <project path="vendor/samsung/jfltexx" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-14.0" />
