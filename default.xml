@@ -105,6 +105,7 @@
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" remote="github" />
   <!-- END CYANOGENMOD -->
   
+  <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" remote="aosp" />
   
